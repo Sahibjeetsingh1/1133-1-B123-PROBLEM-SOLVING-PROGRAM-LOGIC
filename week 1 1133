@@ -1,0 +1,82 @@
+print("sahib jeet singh")
+#for single line comments you can use hashtag
+#author:sahib
+
+'''
+for multiple line comments 
+you can use a 3ple single quation
+
+'''
+
+print('sahib')
+print("sahib")
+#print I'm heasam and I teach "python"
+print('I\'m heasam and I teach "python"')
+print('''I'm heasam and I teach "python"''')
+
+#one
+#two
+#three
+print("one\ntwo\nthree")
+print('''one 
+two
+three''')
+
+#variables dynamic
+
+age=27
+
+money= 23.46
+
+name="sahib"
+
+print('my name is', name , 'and I am',age,'years old\n and I have', money, 'dollars')
+print('my name is %s and I am %d years old\n and I have %.1f dollars' %(name,age,money))
+print('my name is{} name , and I am {} years ols\n and I have {} Dollars'.format(name,age,money))
+
+a = 7
+b = 8
+c = a+b
+d = a*b
+e = 7//2
+f = a%b
+
+print(c)
+print(d)
+print(d)
+print(e)
+print(f)
+
+
+#inputs in python
+name = input('what is your name')
+last_name = input('hello {} what is your last name?'.format(name))
+print('your full name is', name , last_name )
+num1 = int(input('give me a number and I double it fpr you!'))
+
+#int() #float() # str()
+print(num1*2)
+
+
+#3 numbers:
+number1=int(input('please enter the  first number:'))
+number2=int(input('please enter the second number:'))
+number3=int(input('please enter the  third number:'))
+average = (number1+number2+number3)/3
+print('the average of {} , {}, {} is {}'.format (number1,number2,number3,average))
+
+#for 2 decimals
+print('the average of {} , {}, {} is {:.2f}'.format (number1,number2,number3,average))
+
+'''
+##### for python 2.7 #######
+number1 = int(input('please enter the  first number:'))
+number2 = int(input('please enter the second number:'))
+number3 = int(input('please enter the  third number:'))
+name = raw_input('whaT IS YOUR NAME')
+average = ( number1 + number2 + number3)/3   #integer printed
+average=(number 1 +number2 + number3)3.0 #float printed
+average = float(number1 + number2 + number3)/3 #float printed
+print'the average is',average
+'''
+
