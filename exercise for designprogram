@@ -35,3 +35,7 @@ battingaverage= hits/atbat
 
 #output
 print("the player's batting average is",battingaverage)
+
+
+
+
