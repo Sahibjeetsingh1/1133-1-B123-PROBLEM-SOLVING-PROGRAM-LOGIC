@@ -1,0 +1,37 @@
+'''
+
+//declare the necessary variable
+declare integer hits
+declare integer atbat
+declare real battingaverage
+
+
+// collect out inputs
+displays "enter the players' number of hits"
+input hits
+display" enter the players number of time at bat"
+input atbat
+
+
+//process
+set battingaverage=hits/atbat
+
+//ouput
+displays "the player's batting average is", battingaverage
+
+'''
+
+#variable declaration
+hits=0
+atbat=0
+battingaverage=0
+
+#collect inputs
+hits=int(input("enter the players'number of hits"))
+atbart=int(input("enter the players number of time at bat"))
+
+#process the inputs
+battingaverage= hits/atbat
+
+#output
+print("the player's batting average is",battingaverage)
